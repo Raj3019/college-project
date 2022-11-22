@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #F0F5F9;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    text-align: center;
+    background: #C9D6DF;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 8px  #888888;
+
+}
+.box h2{
+    color: #1E2022;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 700;
+}
+
+.box p{
+    color: #79868a;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.box input{
+    font-size: 16px;
+    width: 60%;
+    border:none;
+    border-bottom:#1E2022 1px solid;
+    padding: 15px, 20px;
+    margin-right: 10px;
+    outline: none;
+    background: #c9d6df;
+}
+
+.box button{
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    padding: 3px 20px;
+    background: #1E2022; 
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px)
+ {
+    .box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 240px;
+        height:150px;
+        text-align: center;
+        background: #C9D6DF;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 5px 10px 8px  #888888;
+    
+    }
+    .box h2{
+        color: #1E2022;
+        font-size: 30px;
+        margin-top:-20px;
+        font-weight: 700;
+    }
+    .box p{
+        color: #79868a;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    .box input{
+        font-size: 16px;
+        width: 60%;
+        border:none;
+        border-bottom:#1E2022 1px solid;
+        padding: 15px, 20px;
+        margin-top:15px;
+        outline: none;
+        background: #c9d6df;
+    }
+    .box button{
+        color: #fff;
+        font-size: 15px;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 8px;
+        padding: 3px 20px;
+        background: #1E2022; 
+        margin-top: 10px;
+    }
+ }
